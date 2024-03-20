@@ -1,6 +1,6 @@
 # Created by newuser for 5.9
 
-PS1="$ "
+PS1="%F{green}%M%f $ "
 alias plasma="ssh -Y 134.103.55.10"
 alias cadsrv="ssh -Y 134.103.69.45"
 source ~/zsh_plugs/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
