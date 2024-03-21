@@ -5,6 +5,7 @@ export PATH=$HOME/.local/bin:$PATH
 PS1="%F{green}%M%f $ "
 alias plasma="ssh -Y 134.103.55.10"
 alias cadsrv="ssh -Y 134.103.69.45"
+alias nvconf="nvim $HOME/.dotfiles/nvim/init.lua"
 
 source $HOME/zsh_plugs/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/zsh_plugs/zsh-autosuggestions/zsh-autosuggestions.zsh

@@ -36,7 +36,8 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 vim.keymap.set('n', '<C-N>',':bnext<CR>')
 vim.keymap.set('n', '<C-P>',':bprev<CR>')
-vim.keymap.set('n','<leader>nt',':NERDTree<CR>')
+vim.keymap.set('n','<leader>t',':NERDTree<CR>')
+vim.keymap.set('n','<leader>o',':ObsidianNew')
 
 -- Tabline config
 
