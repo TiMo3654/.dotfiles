@@ -1,5 +1,7 @@
 # Created by newuser for 5.9
 
+export PATH=$HOME/.local/bin:$PATH
+
 PS1="%F{green}%M%f $ "
 alias plasma="ssh -Y 134.103.55.10"
 alias cadsrv="ssh -Y 134.103.69.45"
@@ -19,3 +21,4 @@ setopt HIST_REDUCE_BLANKS
 setopt INC_APPEND_HISTORY_TIME
 setopt EXTENDED_HISTORY
 
+autoload -Uz tetriscurses

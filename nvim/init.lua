@@ -12,6 +12,8 @@ Plug('nvim-lua/plenary.nvim')
 Plug('junegunn/fzf.vim')
 Plug('nvim-telescope/telescope.nvim')
 Plug('rose-pine/neovim')
+Plug('akinsho/bufferline.nvim')
+
 vim.call('plug#end')
 
 
