@@ -8,6 +8,7 @@ alias plasma="ssh -Y 134.103.55.10"
 alias cadsrv="ssh -Y 134.103.69.45"
 alias nvconf="nvim $HOME/.dotfiles/nvim/init.lua"
 alias obs="cd $HOME/obsidian/glasshouse/"
+alias nv="nvim"
 
 source $HOME/zsh_plugs/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/zsh_plugs/zsh-autosuggestions/zsh-autosuggestions.zsh
