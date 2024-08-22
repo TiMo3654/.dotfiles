@@ -27,6 +27,11 @@ vim.cmd("colorscheme rose-pine")
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+-- Editor
+vim.o.spell = true
+vim.o.spelllang = 'en_us'
+vim.o.colorcolumn = '80'
+
 -- Keymaps
 
 vim.g.mapleader=" "
@@ -38,9 +43,9 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 vim.keymap.set('n', '<C-N>',':bnext<CR>')
 vim.keymap.set('n', '<C-P>',':bprev<CR>')
-vim.keymap.set('n','<leader>t',':NERDTree<CR>')
-vim.keymap.set('n','<leader>on',':ObsidianNew')
-vim.keymap.set('n','<leader>oq',':ObsidianQuickSwitch<CR>')
+--vim.keymap.set('n','<leader>t',':NERDTree<CR>')
+--vim.keymap.set('n','<leader>on',':ObsidianNew')
+--vim.keymap.set('n','<leader>oq',':ObsidianQuickSwitch<CR>')
 vim.keymap.set('n','<leader>md',':! pandoc -f markdown -t html5 -o %:r.html %<CR>')
 vim.keymap.set('n','<leader>py',':! python %<CR>')
 
